@@ -1,10 +1,10 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
-import HomePage from './Components/Home/HomePage';
-import AboutPage from './Components/About/AboutPage';
-import Header from './Components/common/Header'
+import HomePage from './Components/Home/homePage';
+import AboutPage from './Components/About/aboutPage';
+import Header from './Components/Common/header'
 import PageNotFound from './Components/PageNotFound';
-import CoursesPage from './Components/courses/CoursesPage';
+import CoursesPage from './Components/Courses/coursesPage';
 
 
 function App() {
